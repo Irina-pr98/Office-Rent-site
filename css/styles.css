@@ -423,7 +423,6 @@ hr {
     border: none;
     cursor: pointer;
     z-index: 2000;
-    margin-right: 50px;
 }
 
 .hamburger .line {
@@ -595,6 +594,14 @@ hr {
         padding: 5px;
     }
 
+    .main-text h1 {
+        font-size: 35px;
+    }
+
+    .main-text-item p {
+        font-size: 19px;
+    }
+    
     .middle .left-image, .middle .right-image {
         margin-left: 0;
         margin-right: 0;
@@ -608,6 +615,14 @@ hr {
 
     .form-left h2 {
         font-size: 1.5rem;
+    }
+
+    .form-right {
+        display: none;
+    }
+
+    form {
+        padding: 0 50px;
     }
 
     .footer-logo {
