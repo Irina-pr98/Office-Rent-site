@@ -51,6 +51,11 @@ header .logo {
     letter-spacing: 0.1rem;
 }
 
+header .logo a {
+    color: #fff;
+    text-decoration: none;
+}
+
 header nav ul {
     list-style: none;
     display: flex;
@@ -68,7 +73,7 @@ header nav ul li a {
     font-style: italic;
 }
 
-.main-section {
+#main-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -84,7 +89,7 @@ header nav ul li a {
     justify-content: flex-end;
 }
 
-.middle, .form-section {
+#middle, #form-section {
     padding: 20px;
     text-align: center;
 }
@@ -93,7 +98,6 @@ header nav ul li a {
     align-self: center;
     padding: 29.5px 40px;
     background-color: #fff;
-    color: black;
     border: none;
     cursor: pointer;
     font-size: 18px;
@@ -103,10 +107,16 @@ header nav ul li a {
     margin-left: 60px;
     font-size: 24px;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .main-section-button:hover {
     background-color: #bebebe;
+}
+
+.main-section-button a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Main-text styles */
@@ -169,7 +179,7 @@ header nav ul li a {
 
 /* Middle section */
 
-.middle {
+#middle {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -178,20 +188,20 @@ header nav ul li a {
     flex-wrap: wrap;
 }
 
-.middle .left-image, .middle .right-image {
+#middle .left-image, #middle .right-image {
     width: 27%;
     max-width: 100%;
 }
 
-.middle .left-image {
+#middle .left-image {
     margin-left: -20px;
 }
 
-.middle .right-image {
+#middle .right-image {
     margin-right: -20px;
 }
 
-.middle .text-content {
+#middle .text-content {
     width: 40%;
     height: 100%;
     display: flex;
@@ -199,27 +209,26 @@ header nav ul li a {
     text-align: left;
 }
 
-.middle .text-content .item {
+#middle .text-content .item {
     display: flex;
     align-items: center;
     margin: 0;
     color: #fff;
 }
 
-.middle .text-content .item p {
+#middle .text-content .item p {
     font-size: 20px;
 }
 
-.middle .text-content .item img {
+#middle .text-content .item img {
     margin-right: 10px;
     height: 37px;
     width: 48px;
 }
 
-.middle .text-button {
+#middle .text-button {
     width: 100%;
     background-color: #fff;
-    color: black;
     border: none;
     padding: 10px;
     cursor: pointer;
@@ -228,13 +237,18 @@ header nav ul li a {
     font-weight: bold;
 }
 
-.middle .text-button:hover {
+#middle .text-button:hover {
     background-color: #bebebe;
+}
+
+#middle .text-button a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Form Section styles */
 
-.form-section {
+#form-section {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -381,7 +395,11 @@ hr {
     font-size: 34px;
     margin-bottom: 10px;
     margin-top: 0;
+}
+
+.footer-logo a {
     color: #fff;
+    text-decoration: none;
 }
 
 .social-media-icons {
@@ -407,6 +425,11 @@ hr {
 
 .footer-button:hover {
     background-color: #bebebe;
+}
+
+.footer-button a {
+    color: black;
+    text-decoration: none;
 }
 
 /* Hamburger menu styles */
@@ -443,12 +466,12 @@ hr {
         flex-basis: 38%;
     }
     
-    .middle .left-image, .middle .right-image {
+    #middle .left-image, #middle .right-image {
         flex-basis: 30%;
         margin-top: auto;
     }
 
-    .middle .text-content {
+    #middle .text-content {
         flex-basis: 40%;
     }
 
@@ -467,14 +490,14 @@ hr {
         flex-basis: 100%;
     }
 
-    .middle .left-image, .middle .right-image {
+    #middle .left-image, #middle .right-image {
         margin-left: 0;
         margin-right: 0;
         width: 100%;
         margin-top: 12px;
     }
 
-    .middle .text-content {
+    #middle .text-content {
         width: 100%;
     }
 
@@ -524,18 +547,18 @@ hr {
         font-size: 0.875rem;
     }
 
-    .main-section, .middle, .form-section {
+    #main-section, #middle, #form-section {
         padding: 10px;
     }
 
-    .middle .left-image, .middle .right-image {
+    #middle .left-image, #middle .right-image {
         margin-left: 0;
         margin-right: 0;
         width: 100%;
         margin-top: 12px;
     }
 
-    .middle .text-content {
+    #middle .text-content {
         width: 100%;
     }
 
@@ -590,7 +613,7 @@ hr {
         font-size: 0.75rem;
     }
 
-    .main-section, .middle, .form-section {
+    #main-section, #middle, #form-section {
         padding: 5px;
     }
 
@@ -602,14 +625,14 @@ hr {
         font-size: 19px;
     }
     
-    .middle .left-image, .middle .right-image {
+    #middle .left-image, #middle .right-image {
         margin-left: 0;
         margin-right: 0;
         width: 100%;
         margin-top: 12px;
     }
 
-    .middle .text-content {
+    #middle .text-content {
         width: 100%;
     }
 
